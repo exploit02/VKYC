@@ -1,0 +1,358 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+     .result_screen_background_color{
+        background-color:#05AAA5;
+     }
+     .result_screen_background_img{
+     
+     }
+     .result_screen_img{
+       width: 102px;
+       height: 85px;
+       border-radius: 10px;
+       position: absolute;
+        right: 17px;
+        bottom: 20px;
+        border: 5px solid #fff;
+     }
+     .result_screen{
+      font-family: Open Sans;
+      font-size: 24px;
+      color: #fff;
+     }
+     .user_profile_img{
+      width: 114px;
+      height: 114px;
+      border-radius: 50%;
+     }
+     .list_of_proved li div p{
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+     }
+      .list_of_proved li div i{
+      
+      font-size: 26px;
+      color: #fff;
+     }
+
+     .div_bottom_boder{
+      border-bottom: 1px solid #fff;
+     }
+     .profile_details .card{
+        box-shadow: 0px 10px 30px  #00000066;
+     }
+     .card_header{
+      background-color: #F4F4F4;
+      border-radius: .25rem;
+      padding: 10px;
+     }
+     .card_header h3{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: bold;
+        color: #071615;
+     }
+
+     .profile_details_boder{
+      border-bottom: 1px solid #00000066;
+     }
+     .profile_details .card-body p{
+        font-family: Open Sans;
+        font-size: 12px;
+        color: #364848;
+     }
+      .profile_details .card-body h4{
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #364848;
+     }
+     .submit_btn{
+       background-color: #006764;
+       text-transform: capitalize;
+       font-family: Open Sans;
+        font-size: 20px;
+        color: #FFF;
+     }
+     .adhaar_upload_steps ul li:first-child{
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#13B8B3; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(2){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#1DCEC9; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(3){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        border: 2px solid #16C5C0;
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .aadhaar_content h3{
+        font-family: Open Sans;
+        font-size: 26px;
+        color: #fff;
+     }
+     .aadhaar_content p{
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #fff;
+     }
+     .aadhaar_btn{
+        height: 92px;
+        background-color:#007773;
+        box-shadow: 0px 8px 30px  #0000004D;
+        font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+        border-radius: 10px;
+     }
+     .upload_icon{
+          float: right;
+     }
+     .aadhaar_content a{
+       color: #fff;
+       text-decoration: underline;
+     }
+     .aadhaar_content p:nth-child(4){
+        padding: 15px;
+        font-family: Open Sans;
+        font-size: 18px;
+        color: #fff;
+       
+     }
+}
+.upload_tab_bg{
+  background-color:#F2F8F8;
+ 
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+      color: #495057;
+    background-color: #f2f8f8;
+    border-color: #f2f8f8;
+
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #f2f8f8;
+}
+.nav-tabs .nav-link{
+  border-bottom: none;
+}
+/* Steps */
+.step {
+  position: relative;
+  min-height: 1em;
+  color: gray;
+}
+.step + .step {
+  margin-top: 2.5em
+}
+.step > div:first-child {
+  position: static;
+  height: 0;
+}
+.step > div:not(:first-child) {
+  margin-left: 1.5em;
+  padding-left: 3em;
+}
+.step.step-active {
+  color: #4285f4
+}
+.step.step-active .circle {
+  background-color: #4285f4;
+}
+
+/* Circle */
+.circle {
+      position: relative;
+    width: 42px;
+    height: 42px;
+    line-height: 2.5em;
+    border-radius: 100%;
+    color: #05AAA5;
+    text-align: center;
+    border: 1px solid #05AAA5;
+}
+
+/* Vertical Line */
+.circle:after {
+      content: ' ';
+    position: absolute;
+    display: block;
+    top: 3px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: #cfdbea;
+    z-index: 0;
+}
+.step:last-child .circle:after {
+  display: none
+}
+
+/* Stepper Titles */
+.title {
+  line-height: 1.5em;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+.caption {
+  font-size: 0.8em;
+}
+
+.vedio_cal_bg{
+  background-color: #000;
+  
+
+}
+.vedio_screen_img{
+           width: 102px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 202px;
+    top: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0px 3px 10px #00000066;
+     }
+.vedio_icons{
+  position: absolute;
+    bottom: 52px;
+        left: 41%;
+}
+.micro_phone{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.call{
+   width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color:#F44336;
+}
+
+.result_screen_background_color{
+        background-color:#05AAA5;
+        padding-bottom: 10px;
+     }
+     .result_screen_background_img{
+     
+     }
+     .result_screen_img{
+       width: 102px;
+       height: 85px;
+       border-radius: 10px;
+       position: absolute;
+        right: 17px;
+        bottom: 20px;
+        border: 5px solid #fff;
+     }
+     .result_screen{
+      font-family: Open Sans;
+      font-size: 24px;
+      color: #fff;
+     }
+    
+     .adhaar_upload_steps p{
+      font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+     }
+     .adhaar_upload_steps ul li:first-child{
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#13B8B3; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(2){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color:#1DCEC9; 
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .adhaar_upload_steps ul li:nth-child(3){
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        border: 2px solid #16C5C0;
+        font-family: Open Sans;
+        font-size: 14px;
+        color: #fff;
+
+     }
+     .aadhaar_content h3{
+        font-family: Open Sans;
+        font-size: 26px;
+        font-weight: bold;
+        color: #fff;
+     }
+     .aadhaar_content p{
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #fff;
+     }
+     .aadhaar_btn{
+        height: 92px;
+        background-color:#007773;
+        box-shadow: 0px 8px 30px  #0000004D;
+        font-family: Open Sans;
+        font-size: 20px;
+        color: #fff;
+        text-align: left;
+        border-radius: 10px;
+     }
+     .upload_icon{
+          float: right;
+     }
+     .aadhaar_content a{
+       color: #fff;
+       text-decoration: underline;
+     }
+     .aadhaar_content p:nth-child(4){
+        padding: 15px;
+        font-family: Open Sans;
+        font-size: 18px;
+        color: #fff;
+       
+     }
+      
